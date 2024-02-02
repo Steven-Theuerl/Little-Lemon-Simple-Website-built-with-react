@@ -1,11 +1,11 @@
 import './App.css';
+import Logo from './assets/Logo.svg';
 
 function Nav() {
   return (
-    <nav>
-        <img src="/public/logo192.png" alt="test"></img>
-        Nav Section
-        <ul>
+    <nav className="flex-container">
+        <img src={Logo} alt="test"  style={{width: '300px',}}></img>
+        <ul className="navbar-flexbox-section">
             <li>Home</li>
             <li>About</li>
             <li>Order Online</li>
