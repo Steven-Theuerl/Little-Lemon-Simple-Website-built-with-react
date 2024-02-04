@@ -5,7 +5,6 @@ import johnathan from './assets/johnathan.png'
 import Shane from './assets/Shane.png'
 import Todd from './assets/Todd.png'
 
-
 function Testimonials() {
     return (
         <div className="grid-container">
@@ -44,7 +43,7 @@ function Testimonials() {
                         <div className="cx-testimonial-name">Johnathan Heights</div>
                     </div>
                     <h4 className="h4-tetimonial-container-card-text">01/30/2023</h4>
-                    <h5 className="h5-tetimonial-container-card-text">I would literally actually freak out here again to eat here again. Again.</h5>
+                    <h5 className="h5-tetimonial-container-card-text">SO GOOD MAKES ME WANNA SING</h5>
                 </div>
             </articles>
             <articles className="testimonial-container-card">
@@ -78,7 +77,7 @@ function Testimonials() {
                         <div className="cx-testimonial-name">Todd Thomas</div>
                     </div>
                     <h4 className="h4-tetimonial-container-card-text">01/24/2023</h4>
-                    <h5 className="h5-tetimonial-container-card-text">This is quite possibly the most quiant establishment that has blessed this decaying sinkhole of a cesspit we call Chicago since the inception of Chicago.</h5>
+                    <h5 className="h5-tetimonial-container-card-text">This is quite possibly the most quiant establishment that has blessed this little hole in the wall city we call Chicago.</h5>
                 </div>
             </articles>
         </article>

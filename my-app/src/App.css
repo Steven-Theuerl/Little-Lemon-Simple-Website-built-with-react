@@ -42,7 +42,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 1fr 1fr;
     margin-bottom: 18px;
     margin-top: 18px;
 }
@@ -164,13 +163,16 @@
     grid-template-columns: 250px 250px 250px 250px;
     height: 500px;
     column-gap: 48px;
+    align-items: center;
     justify-content: center;
+    background-color: #495E57;
 }
 
 .testimonial-container-card {
     height: 300px;
     width: 100;
     background-color: #EDEFEE;
+    border-radius: 8px;
 }
 
 .cx-testimonial-info {
@@ -199,18 +201,21 @@
 
 .h4-tetimonial-container-card-text {
     padding-left: 10px;
+    padding-right: 10px;
+
 }
 
 .h5-tetimonial-container-card-text {
     color: #797979;
     padding-left: 10px;
+    padding-right: 10px;
 }
 
 .about-container {
     display:grid;
     grid-template-columns: repeat(2, auto);
     flex-grow: .75;
-    height: 500px;
+    height: 50rem;
     justify-content: space-evenly;
     background-color: #495E57;
 }
@@ -242,4 +247,102 @@
     display: grid;
     grid-template-rows: 2fr 1fr;
     align-self: start;
+}
+
+.signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70rem;
+}
+
+.signup-form-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-form-name-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 50rem;
+}
+
+.signup-form-label {
+   display: flex;
+   justify-content: center;
+   vertical-align: center;
+   align-items: center;
+   margin-top: 1.5rem;
+   font-family: Karla;
+   font-size: 1.25rem;
+   font-weight: 700;
+}
+
+.signup-form-name-input {
+    width: 20rem;
+    height: 2rem;
+    background-color: rgb(247, 247, 247);
+    border: solid #535353 0.01rem;
+    border-radius: .5rem;
+    padding-left: 0.725rem;
+    padding-right: 0.725rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-family: Karla;
+    font-size: 1.25rem;
+}
+
+.signup-form-input {
+    width: 22rem;
+    height: 2rem;
+    background-color: rgb(247, 247, 247);
+    border: solid #535353 0.01rem;
+    border-radius: .5rem;
+    padding-left: 0.725rem;
+    padding-right: 0.725rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-family: Karla;
+    font-size: 1.25rem;
+}
+
+.signup-submit-button {
+    height: 3rem;
+    width: 10rem;
+    align-self: center;
+    background-color: #F4CE14;
+    border-radius: 16px;
+    font-family: Karla;
+    font-size: 24px;
+    border: none;
+    margin-top: 2rem;
+    border: solid #1a1a1a 0.1rem;
+    border-radius: .5rem;
+}
+
+
+
+
+.booking-box {
+    background-color: rgb(27, 121, 121);
+    height: 50rem;
+    justify-content: center;
+}
+
+.contact-page-textside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.contact-page-texbox {
+    height: 16rem;
+    width: 32rem;
+    background-color: #EDEFEE;
+    border-radius: 8px;
+    padding: 1rem;
 }
