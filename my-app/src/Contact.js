@@ -15,7 +15,7 @@ function Contact() {
                         color: 'black',
                         fontSize: '2rem',
                         marginBottom: '1rem',
-                    }}>Contact</b>
+                    }}>Contact Information</b>
                     <li>Address</li>
                     <li>Phone Number</li>
                     <li>Email</li>
@@ -27,7 +27,7 @@ function Contact() {
                         color: 'black',
                         fontSize: '2rem',
                         marginBottom: '1rem',
-                    }}>Social Media</b>
+                    }}>Social Media Accounts</b>
                     <li>Facebook</li>
                     <li>Twitter</li>
                     <li>Instagram</li>
