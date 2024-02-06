@@ -13,7 +13,7 @@ function BookingForm() {
         setTime("");
         setGuests("");
         setOccasion("");
-        alert('Form Submitted!')
+        alert('Reservation Requested!')
 }
 
   return (

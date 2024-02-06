@@ -2,13 +2,16 @@ import './App.css';
 import Greek from './assets/greek salad.jpg'
 import Bruchetta from './assets/bruchetta.svg'
 import Lemon from './assets/lemon dessert.jpg'
+import { Link } from 'react-router-dom'
 
 function Highlights() {
   return (
         <div className="grid-container">
             <div className="highlights-special-flex-container">
                 <h1 className="heading1" style={{color: 'black',}}>This Week's Specials!!</h1>
-                <button className="lemon-button"><b>Online Menu</b></button>
+                <Link to="http://localhost:3000/Online-menu">
+                 <button className="lemon-button"> <b>Online Menu</b> </button>
+                </Link>
             </div>
 
             <article  className="highlight-container">
