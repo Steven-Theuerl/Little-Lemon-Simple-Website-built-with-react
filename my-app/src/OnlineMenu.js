@@ -33,40 +33,42 @@ function OnlineMenu() {
                 </Link>
             </div>
         </div>
-        <div className="online-menu-entree-card">
-         <h1 style={{fontFamily: 'Karla',}}>Greek Salad</h1>
-         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet nec in ornare.</h3>
-         <h2>$13.00</h2>
-        </div>
+        <div className="online-menu-entree-card-backdrop">
+            <div className="online-menu-entree-card">
+            <h1 style={{fontFamily: 'Karla',}}>Greek Salad</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet nec in ornare.</h3>
+            <h2>$13.00</h2>
+            </div>
 
-        <div className="online-menu-entree-card">
-         <h1 style={{fontFamily: 'Karla',}}>Bruchetta</h1>
-         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet nec in ornare.</h3>
-         <h2>$12.00</h2>
-        </div>
+            <div className="online-menu-entree-card">
+            <h1 style={{fontFamily: 'Karla',}}>Bruchetta</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet nec in ornare.</h3>
+            <h2>$12.00</h2>
+            </div>
 
-        <div className="online-menu-entree-card">
-         <h1 style={{fontFamily: 'Karla',}}>Grilled Fish</h1>
-         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet nec in ornare.</h3>
-         <h2>$13.00</h2>
-        </div>
+            <div className="online-menu-entree-card">
+            <h1 style={{fontFamily: 'Karla',}}>Grilled Fish</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet nec in ornare.</h3>
+            <h2>$13.00</h2>
+            </div>
 
-        <div className="online-menu-entree-card">
-         <h1 style={{fontFamily: 'Karla',}}>Pasta</h1>
-         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet nec in ornare.</h3>
-         <h2>$10.00</h2>
-        </div>
+            <div className="online-menu-entree-card">
+            <h1 style={{fontFamily: 'Karla',}}>Pasta</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet nec in ornare.</h3>
+            <h2>$10.00</h2>
+            </div>
 
-        <div className="online-menu-entree-card">
-         <h1 style={{fontFamily: 'Karla',}}>Lemon Dessert</h1>
-         <h3 style={{color: '#495E57'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet nec in ornare.</h3>
-         <h2>$15.00</h2>
-        </div>
+            <div className="online-menu-entree-card">
+            <h1 style={{fontFamily: 'Karla',}}>Lemon Dessert</h1>
+            <h3 style={{color: '#495E57'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet nec in ornare.</h3>
+            <h2>$15.00</h2>
+            </div>
 
-        <div className="online-menu-entree-card">
-         <h1 style={{fontFamily: 'Karla',}}>Just a Lemon</h1>
-         <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet nec in ornare.</h3>
-         <h2>$1.00</h2>
+            <div className="online-menu-entree-card">
+            <h1 style={{fontFamily: 'Karla',}}>Just a Lemon</h1>
+            <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquet nec in ornare.</h3>
+            <h2>$1.00</h2>
+            </div>
         </div>
     </div>
   );

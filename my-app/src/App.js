@@ -1,5 +1,5 @@
 import './App.css';
-import Homepage from './Homepage'
+import Homepage from './Homepage.js'
 import About from './About'
 import OnlineMenu from './OnlineMenu.js'
 import BookingPage from './BookingPage.js'

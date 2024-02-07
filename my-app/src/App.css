@@ -149,7 +149,6 @@
     width: 2fr 1fr;
 }
 
-
 .highlight-container {
     margin-top: 65px;
     display: grid;
@@ -175,7 +174,6 @@
 .h5-highlight-container-card-text {
     color: #797979;
 }
-
 
 .testimonial-container {
     margin-top: 65px;
@@ -303,18 +301,20 @@
     font-family: Karla;
 }
 
+.online-menu-entree-card-backdrop {
+    background-color:#EDEFEE;
+}
 
 .online-menu-entree-card {
     display: flex;
     flex-direction: column;
     height: 14rem;
+    background-color:#EDEFEE;
     margin-left: 2rem;
     margin-right: 2rem;
     border-bottom: 0.1rem solid rgb(206, 206, 206);
     border-top: 0.1rem solid rgb(206, 206, 206);
 }
-
-
 
 .signup-page {
     display: flex;
@@ -384,8 +384,6 @@
     border-radius: .5rem;
 }
 
-
-
 .booking-box {
     display: flex;
     flex-direction: column;
@@ -420,7 +418,7 @@
     font-family: Karla;
     font-size: 1.35rem;
     font-weight: 500;
-    border-radius: 16px;
+    border-radius: .5rem;
 }
 
 .booking-box-inputs {
@@ -432,20 +430,41 @@
     background-color:#EDEFEE;
     padding-left: 2rem;
     padding-right: 2rem;
-    border-radius: 16px;
+    border-radius: .5rem;
     margin-bottom: 3.25rem;
+    border: solid #535353 0.01rem;
 }
+
 
 .booking-box-input-item {
     height: 2rem;
+    background-color: rgb(247, 247, 247);
+    border: solid #535353 0.01rem;
+    border-radius: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    font-family: karla;
+    font-size: 1rem;
+}
+
+.booking-box-input-item-slider{
+    height: 2rem;
+    background-color: rgb(247, 247, 247);
+    border: solid #535353 0.01rem;
+    border-radius: .5rem;
+    padding-left: .75rem;
+    font-family: karla;
+    font-size: 1rem;
 }
 
 .booking-confirmation-box {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgb(255, 255, 255);
+    background-color:#EDEFEE;
     text-overflow: wrap;
+    font-family: karla;
+    font-size: 1rem;
     height: 8rem;
     width: 54rem;
     justify-content: center;

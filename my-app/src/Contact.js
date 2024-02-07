@@ -1,5 +1,4 @@
 import './App.css';
-import Logo from './assets/Logo.svg'
 import Nav from './Nav'
 import Restaurant from './assets/restaurant.jpg'
 
