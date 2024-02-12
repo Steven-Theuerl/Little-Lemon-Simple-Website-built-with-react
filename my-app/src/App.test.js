@@ -1,8 +1,18 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import BookingPage from './BookingPage.js';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+test('Renders the BookingForm heading', () => {
+    render(<BookingPage />);
+
+    const headingElement = screen.getByText("Reservation Request");
+    const updateTimes = screen.getByText(['5PM','6PM','7PM', '8PM']);
+    const initializeTIimes = screen.getByText(['5PM','6PM','7PM', '8PM']);
+
+
+    expect(headingElement).toBeInTheDocument("Reservation Request");
+
+
+    expect(initializeTimes).toBe(['5PM','6PM','7PM', '8PM'])
+    expect(updateTimes).toBe(['5PM','6PM','7PM', '8PM'])
+
 });
